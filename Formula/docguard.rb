@@ -13,13 +13,13 @@
 #   4. On each release, bump `url` + `sha256`:
 #        curl -sL https://registry.npmjs.org/docguard-cli/-/docguard-cli-<VER>.tgz | shasum -a 256
 #
-# sha256 below is the real hash of the published docguard-cli-0.32.0.tgz
+# sha256 below is the real hash of the published docguard-cli-0.33.0.tgz
 # (verified against npm's dist.integrity sha512 for the same bytes).
 class Docguard < Formula
   desc "Deterministic documentation-drift guard for Canonical-Driven Development"
   homepage "https://github.com/raccioly/docguard"
-  url "https://registry.npmjs.org/docguard-cli/-/docguard-cli-0.32.0.tgz"
-  sha256 "9b7f8fa4d09b2502e09a5f1b0999501c4e5a8339a17a695b6c0af555063afc82"
+  url "https://registry.npmjs.org/docguard-cli/-/docguard-cli-0.33.0.tgz"
+  sha256 "fc73290a08dc54b4bad116ba74db33d226468eadac6add1ef235720985021f6f"
   license "MIT"
 
   depends_on "node"
